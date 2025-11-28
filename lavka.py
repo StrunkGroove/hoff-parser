@@ -24,7 +24,7 @@ STORE_ID = 34
 SCREENSERV_APP_ID = 53
 SCREENSERV_PAGE_ID = 56
 BASE_ADMIN_URL = config("BASE_ADMIN_URL")
-BASE_SCREENSERV_URL = config("BASE_SCREENSERV_URL", "https://mobilescreens.millionagents.com")
+BASE_SCREENSERV_URL = config("BASE_SCREENSERV_URL")
 
 logger = logging.getLogger("task_logger")
 task_id = None
